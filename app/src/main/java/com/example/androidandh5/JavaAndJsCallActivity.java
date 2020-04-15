@@ -106,7 +106,7 @@ public class JavaAndJsCallActivity extends Activity implements View.OnClickListe
 
         @JavascriptInterface
         public void showToast() {
-            Toast.makeText(JavaAndJsCallActivity.this, "android 被调用了", Toast.LENGTH_SHORT).show();
+            Toast.makeText(JavaAndJsCallActivity.this, "android 被调用了111", Toast.LENGTH_SHORT).show();
         }
     }
 
